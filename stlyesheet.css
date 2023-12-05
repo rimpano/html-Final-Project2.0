@@ -1,0 +1,106 @@
+body{background-color : green;
+  h1{color : green;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+}
+.red-text{
+  color: red;
+}
+.green-text{
+  color: green;
+}
+.blue-text{
+  color: blue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+  p1{ color: red;
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285f4;  /* Google's blue color */
+    color: #ffffff;             /* White text color */
+    text-decoration: none;      /* Removes the default underline from links */
+    border-radius: 4px;         /* Rounded corners */
+    font-weight: bold;          /* Bold text */
+    transition: background-color 0.3s ease;  /* Smooth transition effect when hovering */
+}
+
+.btn-link:hover {
+    background-color: #357ab7;  /* Slightly darker blue when hovering */
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+<div class="w3-cell-row">
+
+  <div class="w3-container w3-red w3-cell">
+    <p>Hello W3.CSS Layout.</p>
+  </div>
+
+  <div class="w3-container w3-green w3-cell">
+    <p>Hello W3.CSS Layout.</p>
+  </div>
+
+</div>
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+div {
+  border: solid-black 10px;
+}
